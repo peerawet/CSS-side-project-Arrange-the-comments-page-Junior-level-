@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+  background-color: rgb(237, 242, 248);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  width: fit-content;
+}
+
+.first-box {
+  background-color: rgb(115, 63, 200);
+}
+.second-box {
+  background-color: rgb(73, 85, 107);
+}
+.third-box {
+  background-color: white;
+}
+.fourth-box {
+  background-color: rgb(5, 7, 9);
+}
+.fifth-box {
+  background-color: white;
+}
+
+.feedback-box {
+  padding-top: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  border-radius: 15px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 799px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .fifth-box {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    margin-right: 200px;
+  }
+
+  .adjust-view {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(237, 242, 248);
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    gap: 30px;
+    flex: 6;
+    justify-content: flex-end;
+  }
+
+  .fifth-box {
+    height: fit-content;
+    background-color: white;
+    flex: 1;
+  }
+
+  .first-box {
+    width: 50%;
+  }
+
+  .second-box {
+    width: 30%;
+  }
+  .third-box {
+    width: 30%;
+  }
+  .fourth-box {
+    width: 50%;
+  }
+}
+
+.groub-of-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-box {
+  display: flex;
+  gap: 15px;
+}
+
+.profile-picture {
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+  border: solid 1px white;
+}
+.name-type1 {
+  color: white;
+  font-size: 12px;
+}
+
+.under-name-type1 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+}
+
+.top-content-type1 {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.bottom-content-type1 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+}
+
+.name-type2 {
+  color: rgb(73, 85, 105);
+  font-size: 12px;
+}
+
+.under-name-type2 {
+  color: rgb(170, 174, 176);
+  font-size: 12px;
+}
+
+.top-content-type2 {
+  font-size: 20px;
+  color: rgb(73, 85, 105);
+  font-weight: 500;
+}
+
+.bottom-content-type2 {
+  color: rgb(170, 174, 176);
+  font-size: 14px;
+}
